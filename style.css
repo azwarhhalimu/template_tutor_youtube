@@ -1,0 +1,116 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+  color: #292a29;
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+a {
+  color: #292a29;
+  text-decoration: none;
+}
+.biru {
+  color: #00a1ec;
+}
+.merah {
+  color: #fe1e20;
+}
+.header-color {
+  color: #fafafa;
+}
+
+#header {
+  padding: 20px;
+}
+.link-kontak {
+  background: #fe1e20;
+  padding: 10px 30px 10px 30px;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#text1 {
+  color: #fe1e20;
+  font-size: 14px;
+}
+#text2 {
+  font-size: 38px;
+  font-weight: bold;
+}
+#text3 {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+#banner-kanan {
+  background: url("images/bg_right.png") no-repeat;
+  background-size: 90px;
+  background-position: right top;
+}
+#banner-kiri {
+  background: url("images/bg_left.png") no-repeat;
+  background-size: 170px;
+  background-position: left top;
+}
+#fitur {
+  background: url("images/bg.png");
+  background-size: cover;
+  height: 100vh;
+}
+#fitur > table {
+  width: 85%;
+  margin: auto;
+}
+
+#title,
+#text {
+  color: white;
+}
+
+#title {
+  font-weight: bold;
+  font-size: 20px;
+}
+#text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#img {
+  width: 50px;
+}
+#title-konten {
+  font-weight: bold;
+  width: 85%;
+  margin: auto;
+}
+.img {
+  border-radius: 40px;
+  width: 90%;
+}
+#konten-title {
+  font-size: 12px;
+}
+#jumberton {
+  margin-top: -50px;
+  padding: 20px;
+  z-index: 9999999;
+  width: 70%;
+  border-radius: 20px;
+  background: white;
+  position: relative;
+  border: 1px solid #dfdfdf;
+
+  box-shadow: -1px 3px 25px -9px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: -1px 3px 25px -9px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: -1px 3px 25px -9px rgba(0, 0, 0, 0.71);
+}
+
+.btn {
+  background: #00a1ec;
+  color: white;
+  border-radius: 40px;
+  padding: 10px 20px 10px 20px;
+  border: none;
+}
